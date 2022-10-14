@@ -25,8 +25,8 @@
 
   - name: System timestamp - time
     debug:
-     msg:  "Current date: {{ cur_time }}"
+     msg:  "Current time: {{ cur_time }}"
 
   - name: System timestamp - time, including the first 5 nanoseconds digits
     debug:
-     msg:  "Current date: {{ cur_time_ns }}"
+     msg:  "Current time: {{ cur_time_ns }}"
